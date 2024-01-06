@@ -79,40 +79,47 @@
 }
 
 /* Select the red box */
-.todo-3-container __{
+.todo-3-container .box{
     /* Todo 1.3.2 Align this item to start. Try out the other possible values. What happens? */
+    align-items: flex-start;
     /* Answer: */
 }
 
 /* Select the green box */
-.todo-3-container __{
+.todo-3-container .tall{
     /* Todo 1.3.3 Set flex grow to 1 */
+    flex-grow: 1;
 }
 
 /* Select the blue box */
-.todo-3-container __{
+.todo-3-container .wide{
     /* Todo 1.3.4 Set flex grow to 2. Try out the other values. What happens? */
+    flex-grow: 2;
     /* Answer: */
 }
 
 /* TODO 4 */
 .todo-4-container{
     /* Set the display to flex */
+    display: flex;
 }
 
 /* Select the red box */
-.todo-4-container ___{
+.todo-4-container .red{
     /* Set margin left to auto.  */
+    margin-left: auto;
 }
 
 /* Select the green box */
-.todo-4-container __{
+.todo-4-container .green{
     /* Set margin right to auto */
+    margin-right:auto;
 }
 
 /* Select the blue box */
-.todo-4-container ___{
+.todo-4-container .blue{
     /* Set the order to  1. Try chaging the order of the other divs. What does order do?*/
+    order: 1;
     /* Answer: */
 }
 

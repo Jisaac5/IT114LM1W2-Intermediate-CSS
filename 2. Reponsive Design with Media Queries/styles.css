@@ -50,30 +50,35 @@ For each break point, the background of .common-breakpoints must change. You may
   background-color: blue;
 }
 
-/*Large screens (desktops)*/
-@media screen and (max-width: 1200px){
+/*Phone*/
+@media screen and (min-width: 600px){
   .common-breakpoints{
-    background-color: red;
-  }
-}
-
-/*Small screens (laptops)*/
-@media screen and (max-width: 992px){
-  .common-breakpoints{
-    background-color: orange;
+    background-color: green;
   }
 }
 
 /*Tablet*/
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
   .common-breakpoints{
     background-color: yellow;
   }
 }
 
-/*Phone*/
-@media screen and (max-width: 600px){
+/*Small screens (laptops)*/
+@media screen and (min-width: 992px){
   .common-breakpoints{
-    background-color: green;
+    background-color: orange;
   }
 }
+
+/*Large screens (desktops)*/
+@media screen and (min-width: 1200px){
+  .common-breakpoints{
+    background-color: red;
+  }
+}
+
+
+
+
+
