@@ -82,7 +82,7 @@
 .todo-3-container .box{
     /* Todo 1.3.2 Align this item to start. Try out the other possible values. What happens? */
     align-items: flex-start;
-    /* Answer: */
+    /* Answer: Aligning these items to start caused the text inside them to align to the top their inside space (the boxes themselves stayed aligned in the center)*/
 }
 
 /* Select the green box */
@@ -95,7 +95,7 @@
 .todo-3-container .wide{
     /* Todo 1.3.4 Set flex grow to 2. Try out the other values. What happens? */
     flex-grow: 2;
-    /* Answer: */
+    /* Answer: Changing the boxes' flex grow values changed how much space they take in the flexbox relative to the other elements*/
 }
 
 /* TODO 4 */
@@ -108,19 +108,21 @@
 .todo-4-container .red{
     /* Set margin left to auto.  */
     margin-left: auto;
+    order: -2;
 }
 
 /* Select the green box */
 .todo-4-container .green{
     /* Set margin right to auto */
     margin-right:auto;
+    order: 2;
 }
 
 /* Select the blue box */
 .todo-4-container .blue{
     /* Set the order to  1. Try chaging the order of the other divs. What does order do?*/
     order: 1;
-    /* Answer: */
+    /* Answer: Changing the order of value changes the arrangement of the items.*/
 }
 
 
