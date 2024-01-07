@@ -79,20 +79,20 @@
 }
 
 /* Select the red box */
-.todo-3-container .box{
+.todo-3-container .red{
     /* Todo 1.3.2 Align this item to start. Try out the other possible values. What happens? */
     align-items: flex-start;
-    /* Answer: Aligning these items to start caused the text inside them to align to the top their inside space (the boxes themselves stayed aligned in the center)*/
+    /* Answer: Aligning the item to start caused the text inside it to align to the top of its inside space (the box itself stayed aligned in the center)*/
 }
 
 /* Select the green box */
-.todo-3-container .tall{
+.todo-3-container .green{
     /* Todo 1.3.3 Set flex grow to 1 */
     flex-grow: 1;
 }
 
 /* Select the blue box */
-.todo-3-container .wide{
+.todo-3-container .blue{
     /* Todo 1.3.4 Set flex grow to 2. Try out the other values. What happens? */
     flex-grow: 2;
     /* Answer: Changing the boxes' flex grow values changed how much space they take in the flexbox relative to the other elements*/
